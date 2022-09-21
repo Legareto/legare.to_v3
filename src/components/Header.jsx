@@ -121,12 +121,12 @@ function MobileNavigation(props) {
             </div>
             <nav className="mt-6">
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-                <MobileNavItem href="/about">À propos</MobileNavItem>
-                <MobileNavItem href="/articles">Curriculum vitae</MobileNavItem>
-                <MobileNavItem href="/articles">Articles</MobileNavItem>
-                <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem>
-                <MobileNavItem href="/uses">Uses</MobileNavItem>
+                <MobileNavItem href="/profil">Profil</MobileNavItem>
+                <MobileNavItem href="/curriculumvitae">CV</MobileNavItem>
+                <MobileNavItem href="/enseignement">Enseignement</MobileNavItem>
+                <MobileNavItem href="/recherches">Recherches</MobileNavItem>
+                <MobileNavItem href="/publications">Publications</MobileNavItem>
+                <MobileNavItem href="/contact">Contact</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -310,7 +310,7 @@ export function Header() {
         return
       }
 
-      let fromScale = 1
+      let fromScale = 1.5
       let toScale = 36 / 64
       let fromX = 0
       let toX = 2 / 16
