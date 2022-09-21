@@ -1,5 +1,5 @@
 {
-  "name": "tailwindui-template",
+  "name": "legare.to_v3",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,9 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
-    "@headlessui/react": "^1.7.0",
-    "@mapbox/rehype-prism": "^0.8.0",
+    "@headlessui/react": "^1.7.2",
+    "@heroicons/react": "^2.0.11",
+    "@mapbox/rehype-prism": "^0.7.0",
     "@mdx-js/loader": "^2.1.2",
     "@next/mdx": "^12.2.3",
     "@tailwindcss/typography": "^0.5.4",
@@ -25,7 +26,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "remark-gfm": "^3.0.1",
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
     "eslint": "8.19.0",
