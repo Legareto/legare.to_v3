@@ -52,7 +52,7 @@ export default function Document() {
         />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
-      <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">
+      <body className="bg-network flex h-full flex-col bg-zinc-200 dark:bg-black">
         <Main />
         <NextScript />
       </body>

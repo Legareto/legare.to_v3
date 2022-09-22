@@ -63,7 +63,7 @@ function Article({ article }) {
 function SocialLink({ icon: Icon, ...props }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+      <Icon className="h-6 w-6 fill-blue-700 transition group-hover:fill-teal-600 dark:fill-blue-400 dark:group-hover:fill-teal-300" />
     </Link>
   )
 }
@@ -136,7 +136,7 @@ export default function Home({ articles }) {
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-teal-500 dark:text-teal-400 sm:text-5xl">
             Chargé de projet.
             <br />
             Chargé de cours.
@@ -152,7 +152,7 @@ export default function Home({ articles }) {
             des TIC, la didactique de l&apos;univers social et l&apos;histoire
             du Québec et du Canada.
           </p>
-          <div className="mt-6 flex gap-6">
+          <div className="mt-6 flex gap-6 ">
             <SocialLink
               href="https://twitter.com/legaretommy"
               aria-label="Me suivre sur Twitter"
@@ -191,9 +191,30 @@ export default function Home({ articles }) {
           </div>
           <div className="text-center">
             <Button
+              href="/profil"
+              variant="primary"
+              className="mr-15 group mt-6"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="h-6 w-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+              Profil
+            </Button>
+            <Button
               href="/curriculumvitae"
               variant="primary"
-              className="group mt-6 w-1/3 gap-5"
+              className="group mt-6 ml-12"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

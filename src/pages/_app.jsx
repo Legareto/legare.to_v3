@@ -1,3 +1,5 @@
+import styles from '../styles/custom.css'
+
 import { useEffect, useRef } from 'react'
 
 import { Footer } from '@/components/Footer'
@@ -23,7 +25,7 @@ export default function App({ Component, pageProps, router }) {
     <>
       <div className="fixed inset-0 flex justify-center sm:px-8">
         <div className="flex w-full max-w-7xl lg:px-8">
-          <div className="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20" />
+          <div className="w-full bg-white opacity-95 ring-1 ring-zinc-100 dark:bg-zinc-900 dark:opacity-95 dark:ring-zinc-300/20" />
         </div>
       </div>
       <div className="relative">

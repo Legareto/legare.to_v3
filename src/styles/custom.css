@@ -1,0 +1,25 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+::-webkit-scrollbar-track {
+  background: #3a3a3a;
+}
+::-webkit-scrollbar-thumb {
+  background: #14b8a6;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22e7d0;
+}
+
+.bg-network {
+  background-image: url(../images/photos/bg-world-network.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  position: relative;
+  /* z-index: 15; */
+  opacity: 1;
+}
