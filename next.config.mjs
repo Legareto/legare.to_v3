@@ -2,10 +2,10 @@
 const nextConfig = {
   pageExtensions: ['jsx', 'mdx'],
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: false,
   experimental: {
-    newNextLinkBehavior: false,
-    scrollRestoration: true,
+    newNextLinkBehavior: true,
+    scrollRestoration: false,
   },
 }
 
