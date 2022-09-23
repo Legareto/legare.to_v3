@@ -88,7 +88,7 @@ function MobileNavigation(props) {
       </Popover.Button>
       <div>
         <Transition.Root>
-          {/* <div>
+          <div>
             <Transition.Child
               as={Fragment}
               enter="duration-150 ease-out"
@@ -100,9 +100,9 @@ function MobileNavigation(props) {
             >
               <Popover.Overlay className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80" />
             </Transition.Child>
-          </div> */}
+          </div>
           <div>
-            {/* <Transition.Child
+            <Transition.Child
               as={Fragment}
               enter="duration-150 ease-out"
               enterFrom="opacity-0 scale-95"
@@ -138,7 +138,7 @@ function MobileNavigation(props) {
                   </ul>
                 </nav>
               </Popover.Panel>
-            </Transition.Child> */}
+            </Transition.Child>
           </div>
         </Transition.Root>
       </div>
@@ -364,7 +364,7 @@ export function Header() {
   }, [isHomePage])
 
   return (
-    <>
+    <div>
       <header
         className="pointer-events-none relative z-50 flex flex-col"
         style={{
@@ -435,6 +435,6 @@ export function Header() {
         </div>
       </header>
       {isHomePage && <div style={{ height: 'var(--content-offset)' }} />}
-    </>
+    </div>
   )
 }
