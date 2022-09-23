@@ -90,7 +90,7 @@ function MobileNavigation(props) {
         <Transition.Root>
           <div>
             <Transition.Child
-              as={Fragment}
+              as="div"
               enter="duration-150 ease-out"
               enterFrom="opacity-0"
               enterTo="opacity-100"
@@ -103,7 +103,7 @@ function MobileNavigation(props) {
           </div>
           <div>
             <Transition.Child
-              as={Fragment}
+              as="div"
               enter="duration-150 ease-out"
               enterFrom="opacity-0 scale-95"
               enterTo="opacity-100 scale-100"
@@ -365,7 +365,7 @@ export function Header() {
 
   return (
     <div>
-      {/* <header
+      <header
         className="pointer-events-none relative z-50 flex flex-col"
         style={{
           height: 'var(--header-height)',
@@ -434,7 +434,7 @@ export function Header() {
           </Container>
         </div>
       </header>
-      {isHomePage && <div style={{ height: 'var(--content-offset)' }} />} */}
+      {isHomePage && <div style={{ height: 'var(--content-offset)' }} />}
     </div>
   )
 }
