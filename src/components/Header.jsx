@@ -102,7 +102,7 @@ function MobileNavigation(props) {
             </Transition.Child>
           </div> */}
           <div>
-            <Transition.Child
+            {/* <Transition.Child
               as={Fragment}
               enter="duration-150 ease-out"
               enterFrom="opacity-0 scale-95"
@@ -138,7 +138,7 @@ function MobileNavigation(props) {
                   </ul>
                 </nav>
               </Popover.Panel>
-            </Transition.Child>
+            </Transition.Child> */}
           </div>
         </Transition.Root>
       </div>
@@ -422,7 +422,7 @@ export function Header() {
                 )}
               </div>
               <div className="flex flex-1 justify-end md:justify-center">
-                {/* <MobileNavigation className="pointer-events-auto md:hidden" /> */}
+                <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
               <div className="flex justify-end md:flex-1">
