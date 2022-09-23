@@ -10,3 +10,6 @@ const nextConfig = {
 }
 
 export default nextConfig
+
+// Working with newNextLinkBehavior to true
+// Not working with newNextLinkBehavior to false
