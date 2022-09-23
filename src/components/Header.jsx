@@ -365,7 +365,7 @@ export function Header() {
 
   return (
     <div>
-      <header
+      {/* <header
         className="pointer-events-none relative z-50 flex flex-col"
         style={{
           height: 'var(--header-height)',
@@ -434,7 +434,7 @@ export function Header() {
           </Container>
         </div>
       </header>
-      {isHomePage && <div style={{ height: 'var(--content-offset)' }} />}
+      {isHomePage && <div style={{ height: 'var(--content-offset)' }} />} */}
     </div>
   )
 }
