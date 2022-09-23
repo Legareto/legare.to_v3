@@ -66,6 +66,6 @@ export default function Enseignement() {
           </EnseignementSection>
         </div>
       </SimpleLayout>
-    </d>
+    </div>
   )
 }
