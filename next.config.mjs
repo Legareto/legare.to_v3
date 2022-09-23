@@ -12,7 +12,7 @@ const nextConfig = {
   //   scrollRestoration: false,
   // },
 }
-
+// Fix: Fixing commit
 export default nextConfig
 
 // const withMDX = nextMDX({
