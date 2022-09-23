@@ -17,8 +17,12 @@ export function Button({ variant = 'primary', className, href, ...props }) {
   )
 
   return href ? (
-    <Link href={href} passHref className={className} {...props} />
+    <>
+      <Link href={href} passHref className={className} {...props} />
+    </>
   ) : (
-    <button className={className} {...props} />
+    <>
+      <button className={className} {...props} />
+    </>
   )
 }
