@@ -27,7 +27,7 @@ function Appearance({ title, description, event, cta, href }) {
 
 export default function Publications() {
   return (
-    <>
+    <div>
       <Head>
         <title>Publications - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Publications et communications" />
@@ -186,6 +186,6 @@ export default function Publications() {
           </PublicationsSection>
         </div>
       </SimpleLayout>
-    </>
+    </div>
   )
 }

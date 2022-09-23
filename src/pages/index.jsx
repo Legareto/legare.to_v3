@@ -55,7 +55,7 @@ function Photos() {
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>Tommy Légaré (Legare.to)</title>
         <meta
@@ -164,6 +164,6 @@ export default function Home() {
           </div>
         </div>
       </Container>
-    </>
+    </div>
   )
 }

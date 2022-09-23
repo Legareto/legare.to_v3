@@ -16,7 +16,7 @@ import {
 
 export default function Contact() {
   return (
-    <>
+    <div>
       <Head>
         <title>Contact - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Contact" />
@@ -57,6 +57,6 @@ export default function Contact() {
           </ul>
         </div>
       </SimpleLayout>
-    </>
+    </div>
   )
 }
