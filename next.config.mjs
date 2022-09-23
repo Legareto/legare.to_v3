@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['jsx', 'mdx'],
-  // reactStrictMode: true,
+  reactStrictMode: true,
   swcMinify: false,
   experimental: {
     newNextLinkBehavior: false,

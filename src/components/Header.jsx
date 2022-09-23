@@ -88,7 +88,7 @@ function MobileNavigation(props) {
       </Popover.Button>
       <div>
         <Transition.Root>
-          <div>
+          {/* <div>
             <Transition.Child
               as={Fragment}
               enter="duration-150 ease-out"
@@ -100,7 +100,7 @@ function MobileNavigation(props) {
             >
               <Popover.Overlay className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80" />
             </Transition.Child>
-          </div>
+          </div> */}
           <div>
             <Transition.Child
               as={Fragment}
