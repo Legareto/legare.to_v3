@@ -18,6 +18,9 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 
+import { generateRssFeed } from '@/lib/generateRssFeed'
+import { getAllArticles } from '@/lib/getAllArticles'
+
 function SocialLink({ icon: Icon, ...props }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
