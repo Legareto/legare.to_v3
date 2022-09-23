@@ -29,7 +29,7 @@ export default function Recherches() {
   return (
     <>
       <Head>
-        <title>Legare.to - Tommy Légaré - Recherches</title>
+        <title>Recherches - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Recherches actuelles" />
       </Head>
       <SimpleLayout title="Recherches actuelles" intro="">

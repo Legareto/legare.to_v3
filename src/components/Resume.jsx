@@ -5,6 +5,7 @@ import agnicoeagle from '@/images/logos/agnico-eagle.svg'
 import csob from '@/images/logos/csob.svg'
 import solidwhite from '@/images/logos/solid-white.svg'
 import uqat from '@/images/logos/uqat.svg'
+import menfrance from '@/images/logos/menfrance.svg'
 
 export default function Resume() {
   let resume = [
@@ -64,7 +65,7 @@ export default function Resume() {
     {
       company: 'Collège Paul-Langevin (Sainte-Savine, France)',
       title: 'Enseignant-stagiaire',
-      logo: solidwhite,
+      logo: menfrance,
       start: 'avril 2009; avril 2010',
       end: ' avril 2009; mai 2010',
     },
@@ -125,8 +126,13 @@ export default function Resume() {
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+            <div className="relative mt-1 flex h-10 w-16 flex-none items-center justify-center shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+              <Image
+                src={role.logo}
+                alt=""
+                className="h-10 w-16 p-1"
+                unoptimized
+              />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">Poste</dt>

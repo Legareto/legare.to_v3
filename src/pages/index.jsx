@@ -63,7 +63,7 @@ function Article({ article }) {
 function SocialLink({ icon: Icon, ...props }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-blue-700 transition group-hover:fill-teal-600 dark:fill-blue-400 dark:group-hover:fill-teal-300" />
+      <Icon className="h-6 w-6 fill-blue-800 transition group-hover:fill-teal-600 dark:fill-blue-400 dark:group-hover:fill-teal-300" />
     </Link>
   )
 }
@@ -128,7 +128,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Legare.to - Tommy Légaré</title>
+        <title>Tommy Légaré (Legare.to)</title>
         <meta
           name="description"
           content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."

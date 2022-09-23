@@ -29,7 +29,7 @@ export default function Enseignement() {
   return (
     <>
       <Head>
-        <title>Legare.to - Tommy Légaré - Enseignement</title>
+        <title>Enseignement - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Enseignement universitaire" />
       </Head>
       <SimpleLayout title="Enseignement universitaire" intro="">

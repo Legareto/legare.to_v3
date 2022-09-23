@@ -2,73 +2,79 @@ import Image from 'next/future/image'
 
 import teluq from '@/images/logos/teluq.svg'
 import uqat from '@/images/logos/uqat.svg'
+import quebec from '@/images/logos/quebec.svg'
+import google from '@/images/logos/google.svg'
+import microsoft from '@/images/logos/microsoft.svg'
+import freecodecamp from '@/images/logos/freecodecamp.svg'
+import scrumorg from '@/images/logos/scrumorg.svg'
+import pmi from '@/images/logos/pmi.svg'
 
 export default function Qualification() {
   let qualification = [
     {
       company: 'Project Management Institute (PMI)',
       title: 'PMI Agile Certified Professional (PMI-ACP)',
-      logo: uqat,
+      logo: pmi,
       end: '2022',
     },
     {
       company: 'Project Management Institute (PMI)',
       title: 'Disciplined Agile Scrum Master (DASM)',
-      logo: teluq,
+      logo: pmi,
       end: '2022',
     },
     {
       company: 'Scrum.org',
       title: 'Professional Agile Leadership Essentials (PAL-E)',
-      logo: teluq,
+      logo: scrumorg,
       end: '2022',
     },
     {
       company: 'Scrum.org',
       title: 'Professional Scrum Product Owner II (PSPO II)',
-      logo: teluq,
+      logo: scrumorg,
       end: '2022',
     },
     {
       company: 'Scrum.org',
       title: 'Professional Scrum Product Owner I (PSPO I)',
-      logo: teluq,
+      logo: scrumorg,
       end: '2022',
     },
     {
       company: 'Scrum.org',
       title: 'Professional Scrum Master II (PSM II)',
-      logo: teluq,
+      logo: scrumorg,
       end: '2022',
     },
     {
       company: 'Scrum.org',
       title: 'Professional Scrum Master I (PSM I)',
-      logo: teluq,
+      logo: scrumorg,
       end: '2022',
     },
     {
       company: 'FreeCodeCamp',
       title: 'Responsive Web Design Developer',
-      logo: teluq,
+      logo: freecodecamp,
       end: '2020',
     },
     {
       company: 'Google pour Éducation',
       title: 'Google Certified Educator 1',
-      logo: teluq,
+      logo: google,
       end: '2016',
     },
     {
       company: 'Microsoft pour Éducation',
       title: 'Microsoft Innovative Educator',
-      logo: teluq,
+      logo: microsoft,
       end: '2016',
     },
     {
       company: 'Ministère de l’Éducation, du Loisir et du Sport',
       title: "Brevet d'enseignement",
-      logo: teluq,
+      logo: quebec,
       end: '2011',
     },
   ]
@@ -114,8 +120,13 @@ export default function Qualification() {
       <ol className="mt-6 space-y-4">
         {qualification.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+            <div className="relative mt-1 flex h-10 w-16 flex-none items-center justify-center shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+              <Image
+                src={role.logo}
+                alt=""
+                className="h-10 w-16 p-1"
+                unoptimized
+              />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">Diplôme</dt>

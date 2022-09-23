@@ -1,45 +1,48 @@
 import Image from 'next/future/image'
 
-import teluq from '@/images/logos/teluq.svg'
-import uqat from '@/images/logos/uqat.svg'
+import pmi from '@/images/logos/pmi.svg'
+import solidwhite from '@/images/logos/solid-white.svg'
 
-export default function Formation() {
-  let formation = [
+export default function Affiliation() {
+  let affiliation = [
     {
-      company: 'Université du Québec en Abitibi-Témiscamingue',
-      title: 'Maîtrise en éducation, M. Ed. [en cours, scolarité terminée]',
-      logo: uqat,
-      end: 'En cours',
+      company: 'Project Management Institute (PMI) et PMI-Montréal',
+      title: 'Membre',
+      logo: pmi,
     },
     {
-      company: 'Université TÉLUQ',
-      title: 'Programme court de 2e cycle en technologie éducative',
-      logo: teluq,
-      end: '2018',
+      company: 'Société des professeurs d’histoire du Québec (SPHQ)',
+      title: 'Membre',
+      logo: solidwhite,
     },
     {
-      company: 'Université du Québec en Abitibi-Témiscamingue',
-      title:
-        'Baccalauréat en enseignement secondaire profil univers social (B. Ed.)',
-      logo: uqat,
-      end: '2011',
+      company:
+        'Association québécoise pour l’enseignement en univers social (AQEUS)',
+      title: 'Membre',
+      logo: solidwhite,
+    },
+    {
+      company:
+        'Association Québécoise des Utilisateurs d’Outils technologiques à des fins Pédagogiques et Sociales (AQUOPS)',
+      title: 'Membre',
+      logo: solidwhite,
     },
   ]
 
-  function AcademicIcon() {
+  function AffiliationIcon() {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        strokeWidth="1.5"
+        strokeWidth={1.5}
         stroke="currentColor"
         className="h-6 w-6"
       >
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+          d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z"
         />
       </svg>
     )
@@ -61,37 +64,28 @@ export default function Formation() {
   return (
     <div className="mb-12 rounded-2xl border border-zinc-300 p-6 dark:border-zinc-600">
       <h2 className="flex text-xl font-semibold text-zinc-900 dark:text-zinc-100">
-        <AcademicIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Formation académique</span>
+        <AffiliationIcon className="h-6 w-6 flex-none" />
+        <span className="ml-3">Affiliations</span>
       </h2>
       <ol className="mt-6 space-y-4">
-        {formation.map((formation, titleIndex) => (
+        {affiliation.map((affiliation, titleIndex) => (
           <li key={titleIndex} className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-16 flex-none items-center justify-center shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image
-                src={formation.logo}
+                src={affiliation.logo}
                 alt=""
                 className="h-10 w-16 p-1"
                 unoptimized
               />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">Diplôme</dt>
+              <dt className="sr-only">Organisation</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                {formation.title}
+                {affiliation.company}{' '}
               </dd>
-              <dt className="sr-only">Institution</dt>
+              <dt className="sr-only">Titre</dt>
               <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                {formation.company}
-              </dd>
-              <dt className="sr-only">Date</dt>
-              <dd
-                className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                aria-label={`${formation.end.label ?? formation.end}`}
-              >
-                <time dateTime={formation.end.dateTime ?? formation.end}>
-                  {formation.end.label ?? formation.end}
-                </time>
+                {affiliation.title}
               </dd>
             </dl>
           </li>

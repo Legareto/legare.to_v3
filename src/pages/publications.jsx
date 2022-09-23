@@ -29,7 +29,7 @@ export default function Publications() {
   return (
     <>
       <Head>
-        <title>Legare.to - Tommy Légaré - Publications</title>
+        <title>Publications - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Publications et communications" />
       </Head>
       <SimpleLayout title="Publications et communications" intro="">

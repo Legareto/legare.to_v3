@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Legare.to - Tommy Légaré - Contact</title>
+        <title>Contact - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Contact" />
       </Head>
       <SimpleLayout title="Contact" intro="">
@@ -50,7 +50,7 @@ export default function Contact() {
             <SocialLink
               href="mailto:Tommy.Legare@uqat.ca"
               icon={MailIcon}
-              className="mt-8 border-t border-zinc-100 fill-teal-500 pt-8 dark:border-zinc-700/40"
+              className="mt-8 border-t border-zinc-300 fill-teal-500 pt-8 dark:border-zinc-700/40"
             >
               Tommy.Legare@uqat.ca
             </SocialLink>

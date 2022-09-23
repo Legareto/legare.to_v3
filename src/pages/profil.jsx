@@ -18,9 +18,9 @@ export function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-blue-700 transition hover:text-teal-500 dark:text-teal-200 dark:hover:text-teal-500"
+        className="group flex text-sm font-medium text-blue-800 transition hover:text-teal-500 dark:text-teal-200 dark:hover:text-teal-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-blue-700 transition group-hover:fill-teal-500" />
+        <Icon className="h-6 w-6 flex-none fill-blue-800 transition group-hover:fill-teal-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -42,7 +42,7 @@ export default function Profil() {
   return (
     <>
       <Head>
-        <title>Legare.to - Tommy Légaré - Profil</title>
+        <title>Profil - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Tommy Légaré" />
       </Head>
       <Container className="mt-16 sm:mt-32">
