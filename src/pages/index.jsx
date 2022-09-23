@@ -167,3 +167,9 @@ export default function Home() {
     </div>
   )
 }
+
+export async function getStaticProps() {
+  if (process.env.NODE_ENV === 'production') {
+    await generateRssFeed()
+  }
+}
