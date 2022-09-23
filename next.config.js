@@ -4,16 +4,16 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['jsx', 'mdx'],
+  pageExtensions: ['jsx'],
   reactStrictMode: true,
-  // swcMinify: true,
+  swcMinify: false,
   // experimental: {
   //   newNextLinkBehavior: false,
   //   scrollRestoration: false,
   // },
 }
-// Fix: Fixing commit
-export default nextConfig
+
+module.exports = nextConfig
 
 // const withMDX = nextMDX({
 //   extension: /\.mdx?$/,

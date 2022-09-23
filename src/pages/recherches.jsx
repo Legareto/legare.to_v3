@@ -1,3 +1,5 @@
+import React, { Fragment } from 'react'
+
 import Head from 'next/head'
 
 import { Card } from '@/components/Card'

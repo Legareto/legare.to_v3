@@ -1,3 +1,4 @@
+import React, { Fragment } from 'react'
 import { Head, Html, Main, NextScript } from 'next/document'
 
 const modeScript = `
