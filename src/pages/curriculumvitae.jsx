@@ -36,7 +36,7 @@ function Appearance({ title, description, event, cta, href }) {
 
 export default function Curriculumvitae() {
   return (
-    <div>
+    <>
       <Head>
         <title>Curriculum Vitae - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Curriculum Vitae" />
@@ -117,6 +117,6 @@ export default function Curriculumvitae() {
           </Button>
         </div>
       </SimpleLayout>
-    </div>
+    </>
   )
 }

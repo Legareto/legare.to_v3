@@ -40,7 +40,7 @@ export function MailIcon(props) {
 
 export default function Profil() {
   return (
-    <div>
+    <>
       <Head>
         <title>Profil - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Tommy Légaré" />
@@ -159,6 +159,6 @@ export default function Profil() {
           </div>
         </div>
       </Container>
-    </div>
+    </>
   )
 }

@@ -27,7 +27,7 @@ function Appearance({ title, description, event, cta, href }) {
 
 export default function Enseignement() {
   return (
-    <div>
+    <>
       <Head>
         <title>Enseignement - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Enseignement universitaire" />
@@ -66,6 +66,6 @@ export default function Enseignement() {
           </EnseignementSection>
         </div>
       </SimpleLayout>
-    </div>
+    </>
   )
 }

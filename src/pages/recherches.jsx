@@ -27,7 +27,7 @@ function Appearance({ title, description, event, cta, href }) {
 
 export default function Recherches() {
   return (
-    <div>
+    <>
       <Head>
         <title>Recherches - Tommy Légaré (Legare.to)</title>
         <meta name="description" content="Recherches actuelles" />
@@ -54,6 +54,6 @@ export default function Recherches() {
           </RecherchesSection>
         </div>
       </SimpleLayout>
-    </div>
+    </>
   )
 }
