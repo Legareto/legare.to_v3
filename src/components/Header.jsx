@@ -72,8 +72,14 @@ function MoonIcon(props) {
 function MobileNavItem({ href, children }) {
   return (
     <li>
-      <Popover.Button as={Link} href={href} passHref className="block py-2">
-        BANANE
+      <Popover.Button
+        as={Link}
+        href={href}
+        oldBehavior
+        passHref
+        className="block py-2"
+      >
+        {children}
       </Popover.Button>
     </li>
   )
@@ -153,6 +159,7 @@ function NavItem({ href, children }) {
     <li>
       <Link
         href={href}
+        oldBehavior
         passHref
         className={clsx(
           'relative block px-3 py-2 transition',
