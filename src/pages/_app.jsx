@@ -29,7 +29,7 @@ export default function App({ Component, pageProps, router }) {
         </div>
       </div>
       <div className="relative">
-        <Header />
+        {/* <Header /> */}
         <main>
           <Component previousPathname={previousPathname} {...pageProps} />
         </main>
