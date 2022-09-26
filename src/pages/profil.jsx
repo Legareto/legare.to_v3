@@ -20,8 +20,10 @@ export function SocialLink({ className, href, children, icon: Icon }) {
         href={href}
         className="group flex text-sm font-medium text-blue-800 transition hover:text-teal-500 dark:text-teal-200 dark:hover:text-teal-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-blue-800 transition group-hover:fill-teal-500" />
-        <span className="ml-4">{children}</span>
+        <>
+          <Icon className="h-6 w-6 flex-none fill-blue-800 transition group-hover:fill-teal-500" />
+          <span className="ml-4">{children}</span>
+        </>
       </Link>
     </li>
   )
