@@ -73,7 +73,7 @@ function MobileNavItem({ href, children }) {
   return (
     <li>
       <Popover.Button as={Link} href={href} passHref className="block py-2">
-        {children}
+        BANANE
       </Popover.Button>
     </li>
   )
