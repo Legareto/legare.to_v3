@@ -51,13 +51,6 @@ export default function Recherches() {
               event="Université du Québec en Abitibi-Témiscamingue"
               cta=""
             />
-            <Appearance
-              href=""
-              title="TEST"
-              description="TEST"
-              event="TEST"
-              cta=""
-            />
           </RecherchesSection>
         </div>
       </SimpleLayout>
