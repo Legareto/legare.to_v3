@@ -8,7 +8,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: false,
   experimental: {
-    newNextLinkBehavior: true,
+    newNextLinkBehavior: false,
     scrollRestoration: false,
   },
 }
