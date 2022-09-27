@@ -59,10 +59,10 @@ export default function Specialisation() {
             <div className="min-w-0 flex-1">
               <div href="" className="focus:outline-none">
                 <span className="absolute inset-0" aria-hidden="true" />
-                <p className="text-center text-sm font-bold text-gray-900">
+                <p className="text-center text-sm font-bold text-zinc-900 dark:text-zinc-100">
                   {champ.title}
                 </p>
-                <p className="text-center text-sm font-medium text-gray-900">
+                <p className="text-center text-sm font-medium text-zinc-500 dark:text-zinc-400">
                   {champ.details}
                 </p>
               </div>
