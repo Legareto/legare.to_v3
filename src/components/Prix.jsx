@@ -15,7 +15,7 @@ export default function Prix() {
     {
       key: '1',
       company: 'Université TÉLUQ',
-      prix: 'Programme court de 2e cycle en technologie éducative',
+      prix: "Certificat d'excellence, Programme court de 2e cycle en technologie éducative",
       logo: teluq,
       end: '2019',
     },
