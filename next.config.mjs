@@ -8,9 +8,13 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: false,
   experimental: {
-    newNextLinkBehavior: false,
+    newNextLinkBehavior: true,
     scrollRestoration: false,
   },
+  basePath: "/legare.to_v3",
+  images: {
+    unoptimized: true
+  }
 }
 
 export default nextConfig
