@@ -84,21 +84,19 @@ export default function Home() {
           <div className="mt-6 flex gap-6 ">
             <SocialLink
               href="https://twitter.com/legaretommy"
+              target="_blank"
               aria-label="Me suivre sur Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
               href="https://www.linkedin.com/in/tommylegare/"
+              target="_blank"
               aria-label="Me suivre sur LinkedIn"
               icon={LinkedInIcon}
             />
-            {/* <SocialLink
-              href="https://instagram.com"
-              aria-label="Me suivre sur Research Gate"
-              icon={InstagramIcon}
-            /> */}
             <SocialLink
               href="https://github.com/Legareto"
+              target="_blank"
               aria-label="Me suivre sur GitHub"
               icon={GitHubIcon}
             />
