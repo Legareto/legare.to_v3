@@ -65,23 +65,20 @@ export default function Profil() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Tommy Légaré est chargé de projet en technologies éducatives
-                pour le service de pédagogique universitaire et de formation à
-                distance (SPUFAD) et également chargé de cours à l&apos;unité
-                d&apos;enseignement et de recherche (UER) des sciences de
-                l&apos;éducation de l&apos;UQAT où il enseigne
+                Tommy Légaré est responsable de produits numériques au
+                vice-rectorat aux ressources (VRAR) et également chargé de cours
+                à l&apos;unité d&apos;enseignement et de recherche (UER) en
+                sciences de l&apos;éducation de l&apos;UQAT où il enseigne
                 l&apos;intégration des TIC, la didactique de l&apos;univers
                 social et l&apos;histoire du Québec et du Canada.
               </p>
               <p>
                 Enseignant d’histoire et de géographie de formation, il est
-                aussi diplômé de la TÉLUQ en technologie éducative. Comme chargé
-                de projet, il initie, collabore et accompagne
-                l&apos;institution, les chargé.es de cours et les professeur.es
-                pour différentes questions en lien avec l’enseignement et les
-                technologies. Il a travaillé sur plus d’une trentaine de projets
-                technologiques et des projets de formation à distance en mode
-                synchrone, asynchrone et hybride.
+                aussi diplômé de la TÉLUQ en technologie éducative. Il initie et
+                collabre à de nombreux projets et produits en lien avec le
+                numérique. Il a notamment travaillé sur plus d’une trentaine de
+                projets technologiques et des projets de formation à distance en
+                mode synchrone, asynchrone et hybride.
               </p>
               <p>
                 Tommy s&apos;intéresse particulièrement à la gestion de projets
@@ -99,7 +96,7 @@ export default function Profil() {
                 analyser. Sa soif d’apprendre et son esprit de synthèse font de
                 lui un allié pédagogique hors pair pour vos projets. Ses
                 collègues disent de lui qu’il est communicateur, rêveur, ouvert,
-                méthodique et drôle. N&apos;Hésitez pas à le contacter pour
+                méthodique et drôle. N&apos;hésitez pas à le contacter pour
                 discuter avec lui de vos projets!
               </p>
               <Button
