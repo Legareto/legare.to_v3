@@ -52,6 +52,13 @@ export default function Publications() {
           </PublicationsSection>
           <PublicationsSection title="Communications scientifiques et professionnelles avec comité de lecture">
             <Appearance
+              href=""
+              title="Bourdieu et le qualitatif"
+              description="Breton, O., Légaré, T. et Melançon, C. (2023). Bourdieu et le qualitatif. Communication présentée au Colloque des chercheur.euses émergent.es en éducation de l'UQAT, 29 avril 2023, Université du Québec en Abitibi-Témiscamingue, Rouyn-Noranda."
+              event="Colloque des chercheur.euses émergent.es en éducation de l'UQAT"
+              cta=""
+            />
+            <Appearance
               href="https://youtu.be/LQhr8lK0LEM"
               title="Conception d'un lightboard pour une FAD fun et efficace"
               description=" Boudreault-Trudel, B., Légaré, T. et Charette, F. (2020, 4 novembre). Conception d'un lightboard pour une FAD fun et efficace. Communication présentée aux Ateliers REFAD. Réseau d’enseignement francophone à distance du Canada (REFAD). https://youtu.be/LQhr8lK0LEM"
@@ -88,6 +95,13 @@ export default function Publications() {
             />
           </PublicationsSection>
           <PublicationsSection title="Communications professionnelles sans comité de lecture">
+            <Appearance
+              href=""
+              title="Le portfolio numérique, votre ami ou votre ennemi?"
+              description="Rioux-Dubois, A., Lacroix, M., Lavoie, M., Regragui, S., Lemein, L., Gilbert, E., Longpré, S., Leblanc, C., Collard, S., et Légaré, T. (2023, 31 mai). Le portfolio numérique, votre ami ou votre ennemi?. Communication présentée aux Webinaires de l'UQAC. Université du Québec à Chicoutimi."
+              event="Webinaires de l'UQAC"
+              cta=""
+            />
             <Appearance
               href=""
               title="Que peut vous apporter le logiciel Microsoft OneNote?"
