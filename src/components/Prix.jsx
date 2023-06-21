@@ -6,28 +6,35 @@ import uqat from '@/images/logos/uqat.svg'
 export default function Prix() {
   let prix = [
     {
-      key: '0',
+      key: '4',
+      company: 'i-mersion CP',
+      prix: "Prix HUBLO, Pratique finaliste, Fiches technopédagogiques des environnements physiques d'apprentissage, Service de pédagogie universitaire et de formation à distance, UQAT",
+      logo: uqat,
+      end: '2023',
+    },
+    {
+      key: '3',
       company: 'Université du Québec en Abitibi-Témiscamingue',
       prix: "Mention d'excellence en enseignement, DID2120, UER en sciences de l'éducation",
       logo: uqat,
       end: 'Automne 2020',
     },
     {
-      key: '1',
+      key: '2',
       company: 'Université TÉLUQ',
       prix: "Certificat d'excellence, Programme court de 2e cycle en technologie éducative",
       logo: teluq,
       end: '2019',
     },
     {
-      key: '2',
+      key: '1',
       company: 'Université du Québec en Abitibi-Témiscamingue',
       prix: "Mention d'excellence en enseignement, HIS2136, UER en sciences de l'éducation",
       logo: uqat,
       end: 'Hiver 2019',
     },
     {
-      key: '3',
+      key: '0',
       company: 'Université du Québec en Abitibi-Témiscamingue',
       prix: "Mention d'excellence en enseignement, DID2120, UER en sciences de l'éducation",
       logo: uqat,

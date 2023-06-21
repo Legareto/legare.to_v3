@@ -51,6 +51,13 @@ export default function Publications() {
             />
           </PublicationsSection>
           <PublicationsSection title="Communications scientifiques et professionnelles avec comité de lecture">
+          <Appearance
+              href=""
+              title="Implantation d'un portfolio numérique dans la formation des étudiant.es IPS"
+              description="Rioux-Dubois, A., Lemelin, L., Lavoie, M., Gilbert, E., Lacroix, M.,  Longpré, S., Regragui, S., Leblanc, C., Collard, S., et Légaré, T. (2023). Implantation d'un portfolio numérique dans la formation des étudiant.es IPS. Communication présentée au Colloque maitrise réseau, 4 mai 2023, Université du Québec à Chicoutimi, Chicoutimi."
+              event="Colloque maitrise réseau"
+              cta=""
+            />
             <Appearance
               href=""
               title="Bourdieu et le qualitatif"
@@ -95,10 +102,17 @@ export default function Publications() {
             />
           </PublicationsSection>
           <PublicationsSection title="Communications professionnelles sans comité de lecture">
+          <Appearance
+              href=""
+              title="Référentiel de compétences, êtes-vous prêts à l'utiliser?"
+              description="Rioux-Dubois, A., Lavoie, M., Leblanc, C., Collard, S., Lemelin, L., Regragui, S., Gilbert, E., Longpré, S., Lacroix, M. et Légaré, T. (2023). Référentiel de compétences, êtes-vous prêts à l'utiliser?. Communication présentée au Fonds de développement de l'enseignement à distance (FODED), s.d., Université du Québec, Québec."
+              event="Fonds de développement de l'enseignement à distance (FODED)"
+              cta=""
+            />
             <Appearance
               href=""
               title="Le portfolio numérique, votre ami ou votre ennemi?"
-              description="Rioux-Dubois, A., Lacroix, M., Lavoie, M., Regragui, S., Lemein, L., Gilbert, E., Longpré, S., Leblanc, C., Collard, S., et Légaré, T. (2023, 31 mai). Le portfolio numérique, votre ami ou votre ennemi?. Communication présentée aux Webinaires de l'UQAC. Université du Québec à Chicoutimi."
+              description="Rioux-Dubois, A., Lacroix, M., Lavoie, M., Regragui, S., Lemelin, L., Gilbert, E., Longpré, S., Leblanc, C., Collard, S., et Légaré, T. (2023, 31 mai). Le portfolio numérique, votre ami ou votre ennemi?. Communication présentée aux Webinaires de l'UQAC. Université du Québec à Chicoutimi."
               event="Webinaires de l'UQAC"
               cta=""
             />
